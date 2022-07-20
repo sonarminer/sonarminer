@@ -16,7 +16,7 @@ docker-compose up
 # Usage
 
 ```sh
-./sonarminer analyse diegocsandrim/sonarminer
+./sonarminer analyse sonarminer/sonarminer
 ```
 
 ## Data access

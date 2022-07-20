@@ -6,9 +6,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/diegocsandrim/sonarminer/git"
-	"github.com/diegocsandrim/sonarminer/qualityanalyzers"
-	"github.com/diegocsandrim/sonarminer/settings"
+	"github.com/sonarminer/sonarminer/git"
+	"github.com/sonarminer/sonarminer/qualityanalyzers"
+	"github.com/sonarminer/sonarminer/settings"
 )
 
 func InterestNewContributor(namespace string, project string, config settings.Config) error {

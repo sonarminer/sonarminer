@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/diegocsandrim/sonarminer/settings"
-	"github.com/diegocsandrim/sonarminer/sonar"
-	"github.com/diegocsandrim/sonarminer/strategy"
+	"github.com/sonarminer/sonarminer/settings"
+	"github.com/sonarminer/sonarminer/sonar"
+	"github.com/sonarminer/sonarminer/strategy"
 	"github.com/urfave/cli/v2"
 )
 

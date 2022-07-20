@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/diegocsandrim/sonarminer/cmd"
+	"github.com/sonarminer/sonarminer/cmd"
 )
 
 type Sonnar struct {

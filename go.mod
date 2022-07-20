@@ -1,4 +1,4 @@
-module github.com/diegocsandrim/sonarminer
+module github.com/sonarminer/sonarminer
 
 go 1.16
 

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/diegocsandrim/sonarminer/cmd"
+	"github.com/sonarminer/sonarminer/cmd"
 )
 
 var GitBaseDir string
