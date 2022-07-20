@@ -17,7 +17,7 @@ var GitBaseDir string
 
 func init() {
 	GitBaseDir = path.Join(os.TempDir(), "sonarminer")
-	err := os.MkdirAll(GitBaseDir, 0644)
+	err := os.MkdirAll(GitBaseDir, 0777)
 	if err != nil {
 		panic(fmt.Sprintf("fail to create a temp directory for sonarminer, dir: '%s', error: %s", GitBaseDir, err.Error()))
 	}
